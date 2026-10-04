@@ -1,0 +1,12 @@
+/* Small accessibility fixes for the static copy of the original design. */
+.menu-responsive-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 5px;
+}
